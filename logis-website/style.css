@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* our services section ======= */
+
+.ourServices {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ccc;
+}
+.sectionTitle {
+  color: #f16821;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sectionSubtitle {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+}
+
+.seciontHr {
+  height: 3px;
+  width: 80px;
+  background-color: #f16821;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.servicesGrid {
+  border: 1px dashed #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.servicesItem {
+  display: grid;
+  grid-template-columns: 48px auto;
+  column-gap: 24px;
+}
+
+.iconSide {
+  grid-row: span 2;
+}
+
+.servicesLink {
+  grid-column: 2 / span 1;
+}
