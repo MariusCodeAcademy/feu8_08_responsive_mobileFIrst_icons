@@ -1,0 +1,48 @@
+/* mobili rezoliucija nuo 300px */
+.respContainer {
+  background-color: palegreen;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.tabl {
+  display: none;
+}
+.lapt {
+  display: none;
+}
+
+/* tablet rezoliucija nuo 768px  */
+@media screen and (min-width: 768px) {
+  .respContainer {
+    background-color: tomato;
+  }
+  .title {
+    font-size: 35px;
+    font-weight: normal;
+  }
+  .mob {
+    display: none;
+  }
+  .tabl {
+    display: block;
+  }
+}
+
+/* laptop rezoliucija nuo 992px  */
+@media screen and (min-width: 992px) {
+  .respContainer {
+    background-color: cornflowerblue;
+  }
+  .title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .lapt {
+    display: block;
+  }
+  .tabl {
+    display: none;
+  }
+}
