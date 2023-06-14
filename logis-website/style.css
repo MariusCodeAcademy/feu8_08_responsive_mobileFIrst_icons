@@ -1,6 +1,9 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+.container {
+  max-width: 1140px;
+}
 h1,
 h2,
 h3,
@@ -16,7 +19,7 @@ p {
 .ourServices {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #ccc;
+  background-color: #f8f9fa;
 }
 .sectionTitle {
   color: #f16821;
@@ -37,18 +40,21 @@ p {
   background-color: #f16821;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .servicesGrid {
-  border: 1px dashed #000;
+  /* border: 1px dashed #000; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 .servicesItem {
+  /* border: 1px solid #000; */
   display: grid;
   grid-template-columns: 48px auto;
-  column-gap: 24px;
+  column-gap: 18px;
 }
 
 .iconSide {
@@ -76,4 +82,11 @@ p {
 .servicesLink {
   color: #f16821;
   margin-bottom: 16px;
+}
+
+.servicesIcon {
+  font-size: 48px;
+  color: #f16821;
+  grid-row: span 3;
+  align-self: flex-start;
 }
