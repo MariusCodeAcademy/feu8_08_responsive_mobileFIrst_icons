@@ -1,4 +1,5 @@
 /* mobili rezoliucija nuo 300px */
+/* 0 platyn */
 .respContainer {
   background-color: palegreen;
   padding-top: 50px;
@@ -25,6 +26,7 @@
 }
 
 /* tablet rezoliucija nuo 768px  */
+/* galioja nuo 768px ir platyn */
 @media screen and (min-width: 768px) {
   .boxes {
     display: grid;
@@ -47,6 +49,7 @@
 }
 
 /* laptop rezoliucija nuo 1140px  */
+/* galioja nuo 1140px ir platyn */
 @media screen and (min-width: 1140px) {
   .boxes {
     grid-template-columns: repeat(3, 1fr);
